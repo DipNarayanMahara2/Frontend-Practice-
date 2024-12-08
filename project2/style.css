@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -66,13 +66,129 @@
 
 .main-section {
   display: flex;
-  justify-content: space-between;
   padding: 20px 120px;
   width: 100%;
   height: 100%;
 }
 
-.skills h2 {
+.skills,
+.education,
+.experience {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.skills h2,
+.experience h2,
+.education h2 {
   font-size: 3rem;
   margin-bottom: 20px;
+
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills ul li {
+  font-size: 1.8rem;
+  font-weight: 500 !important;
+  line-height: 55px;
+}
+
+.experience {
+  margin-right: 100px;
+}
+
+.experience1 h3 {
+  font-size: 1.9rem;
+  font-weight: 700 !important;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px 0px 25px;
+}
+
+.experience1 p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.experience1 a {
+  font-size: 1.6rem;
+  font-weight: 600px;
+  text-decoration: none;
+}
+
+.paragraph p {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.education h3 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+}
+
+.courses ul {
+  list-style: none;
+  line-height: 35px;
+  font-size: 1.6rem;
+}
+
+.courses ul li::marker {
+  content: "-";
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.review {
+  margin: 50px 120px;
+}
+
+.review h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.review-card {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 95px; */
+}
+
+.review-item {
+  border: 2px solid black;
+  border-radius: 40px;
+  padding: 10px 25px;
+  margin: 0 10px 0 25px;
+}
+
+.review-item p:nth-child(1) {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.review-item p:nth-child(2) {
+  font-size: 1.5rem;
+  margin: 15px 0 0 0;
+}
+
+.review-item p:nth-child(3) {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25dvh;
+}
+
+.footer h2 {
+  font-size: 2.1rem;
+  font-weight: 300;
 }
