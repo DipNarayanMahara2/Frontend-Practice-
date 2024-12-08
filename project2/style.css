@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  padding: 30px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.name img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.name p {
+  font-size: 1.8rem;
+  color: rgb(90, 87, 87);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black !important;
+  font-size: 1.6rem;
+  margin: 0 20px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70dvh;
+}
+
+.title h1 {
+  font-size: 6rem;
+}
+
+.para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.para p {
+  font-size: 2rem;
+  color: gray;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  width: 100%;
+  height: 100%;
+}
+
+.skills h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
