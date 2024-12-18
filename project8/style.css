@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cookies-popUp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 400px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(5, 5, 5);
+}
+
+.icons {
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+.cookies-content p {
+  font-size: 1.6rem;
+  margin-bottom: 50px;
+}
+
+#accept-cookies {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#accept-cookies:hover {
+  background-color: #db9797;
+}
