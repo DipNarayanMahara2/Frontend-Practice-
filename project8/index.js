@@ -1,13 +1,22 @@
-// welcome alert
+// Check if consent is already given
+document.addEventListener("DOMContentLoaded", function () {
+  if (!localStorage.getItem("cookies-popUp")) {
+    document.getElementById("cookies-popUp").style.display = "block";
+  }
+});
 
-alert("welcome ! Users");
+// accept the cookies and hide pop up
 
-// Function to check if the user is already accepted cookes
+document
+  .getElementById("accept-cookies")
+  .addEventListener("click", function () {
+    alert("thankyou");
+    localStorage.setItem("cookies-popUp", "true");
+    document.getElementById("cookies-popUp").style.display = "none";
+  });
 
-// function to show cookies popup
+// hide the cookies with out accepting
 
-// Function to hide cookies pop Up and save the content
-
-// addnig event listener when the user accept cookies
-
-// check if user already accept cookies
+document.getElementById("x-button").addEventListener("click", function () {
+  document.getElementById("cookies-popUp").style.display = "none";
+});

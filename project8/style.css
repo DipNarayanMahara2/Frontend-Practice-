@@ -24,8 +24,26 @@ body {
 }
 
 .icons {
-  margin-bottom: 30px;
-  font-size: 4rem;
+  /* margin-bottom: 30px; */
+  margin: 0 30px 50px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.fa-x {
+  font-size: 1.5rem !important;
+}
+
+#x-button {
+  color: white;
+  border: none;
+  background: #000;
 }
 
 .cookies-content p {
