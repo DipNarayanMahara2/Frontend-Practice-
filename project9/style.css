@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #ee9292; */
+  height: 100dvh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.text-container {
+  position: relative;
+}
+
+.text-container span {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+.text-container textarea {
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#incrementNumber.limitReached {
+  color: red;
+}
+
+textarea.limitReached {
+  border-color: red;
+  outline-color: red;
+}
